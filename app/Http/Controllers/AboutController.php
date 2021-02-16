@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class AboutController extends Controller
 {
     public function about (){
-        echo "NIM : 1941720182";
-        echo "Nama : Ivanka Mauludi Juniar";
+        return "NIM : 1941720182,Nama : Ivanka Mauludi Juniar";
+         ;
     }
 }
